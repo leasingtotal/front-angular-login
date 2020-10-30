@@ -15,6 +15,7 @@ import { TablasComponent } from './components/tablas/tablas.component';
 import { FechasComponent } from './components/fechas/fechas.component';
 import { BusquedaComponent } from './components/busqueda/busqueda.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { PruebaComponent } from './components/prueba/prueba.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { FooterComponent } from './components/footer/footer.component';
     TablasComponent,
     FechasComponent,
     BusquedaComponent,
-    FooterComponent
+    FooterComponent,
+    PruebaComponent
   ],
   imports: [
     BrowserModule,

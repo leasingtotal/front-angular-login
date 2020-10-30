@@ -27,6 +27,7 @@ export class TablasComponent implements OnDestroy , OnInit {
       .get('http://dummy.restapiexample.com/api/v1/employees')
       .subscribe((res: any) => {
         this.data = res.data;
+        console.log(this.data);
         this.dtTrigger.next();
       });
   }
